@@ -58,3 +58,6 @@ The CNN architecture consists of:
 - **Class Imbalance**: The original dataset had imbalanced emotion classes, resolved through oversampling.  
 - **Overfitting**: Mitigated by adding dropout layers and data augmentation techniques.  
 - **Computational Cost**: Training a deep model required significant computational resources; optimized hyperparameters to reduce training time.  
+
+
+![Screenshot 2024-12-12 164905](https://github.com/user-attachments/assets/093e21ca-8901-4b81-88af-d115a6f9a2ca)
