@@ -69,3 +69,4 @@ The CNN architecture consists of:
 ## Classification Report
 ![Screenshot 2024-12-15 183901](https://github.com/user-attachments/assets/6ff629d0-989a-4ad3-a240-c481e168ef01)
 ![Screenshot 2024-12-15 184055](https://github.com/user-attachments/assets/f7c4e74a-c154-4594-acdc-4919f0a4c771)
+![Screenshot 2024-12-15 184516](https://github.com/user-attachments/assets/e350edee-7ea1-45e6-9ce2-6c04c9fa1dbf)
