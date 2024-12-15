@@ -59,8 +59,10 @@ The CNN architecture consists of:
 - **Overfitting**: Mitigated by adding dropout layers and data augmentation techniques.  
 - **Computational Cost**: Training a deep model required significant computational resources; optimized hyperparameters to reduce training time.  
 
-#Results
+
+# Results
 ![Screenshot 2024-12-12 164905](https://github.com/user-attachments/assets/093e21ca-8901-4b81-88af-d115a6f9a2ca)
 ![Screenshot 2024-12-15 183809](https://github.com/user-attachments/assets/7fbc8139-7e4a-49a5-bf3e-6d99e6279a2c)
 ## Classification Report
 ![Screenshot 2024-12-15 183901](https://github.com/user-attachments/assets/6ff629d0-989a-4ad3-a240-c481e168ef01)
+![Screenshot 2024-12-15 184055](https://github.com/user-attachments/assets/f7c4e74a-c154-4594-acdc-4919f0a4c771)
