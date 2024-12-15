@@ -19,6 +19,9 @@ https://www.kaggle.com/datasets/nicolejyt/facialexpressionrecognition
 - Surprise  
 - Neutral
 
+  ![Screenshot 2024-12-15 184326](https://github.com/user-attachments/assets/b3d22faf-6340-44a7-a425-9a1027ab5912)
+
+
   Additional preprocessing and augmentation were applied to balance the dataset and improve model performance.  
 
 ## Approach 
