@@ -5,7 +5,8 @@ The goal of this project is to classify facial expressions from images to enhanc
 ## Solution
 I build a model using Convolutional Neural Network , it can claasify facial expressions from images and also using OpenCV i connected model with that so it will show the emotion on the detected face.
 We can implement this on the cameras at the exit of our institute event venue, by this the model can detect the emotion of the participants.Also we can upload images of the event by this also our model can detect the emotion.
-I created a website for this project,through this users can upload their images and detect the emotion on that You can see the website for this project using this link <a href="https://krishnanunnir369777.github.io/username.github.io/">Facial Expression Recognition  Website</a>
+
+I created a website for this project,through this users can upload their images and detect the emotion on that You can see the website for this project using this link <a href="https://krishnanunnir369777.github.io/CNN_website.github.io/">Facial Expression Recognition  Website</a>
 
 ## Dataset
 The project uses the **FER 2013 Dataset** (Facial Expression Recognition), which contains grayscale 48x48 pixel facial images categorized into seven emotions:  
