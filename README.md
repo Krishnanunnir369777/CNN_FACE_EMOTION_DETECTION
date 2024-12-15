@@ -19,4 +19,40 @@ https://www.kaggle.com/datasets/nicolejyt/facialexpressionrecognition
 
   Additional preprocessing and augmentation were applied to balance the dataset and improve model performance.  
 
-## Approach  
+## Approach 
+The project followed these key steps:  
+1. **Data Exploration and Visualization**  
+   - Inspected emotion distribution and visualized samples from the dataset.  
+   - Balanced the dataset using Random Over Sampling to address class imbalance.  
+
+2. **Data Preprocessing**  
+   - Normalized pixel values to a [0, 1] range.  
+   - Reshaped images into a 4D tensor for compatibility with CNN.  
+   - One-hot encoded the emotion labels.  
+
+3. **Model Development**  
+   - Designed a **Convolutional Neural Network (CNN)** with multiple convolutional, pooling, and dropout layers.  
+   - Used **ReLU activation** for non-linearity and **Batch Normalization** for faster convergence.  
+   - Applied **Softmax activation** in the final layer to output probabilities for each emotion class.  
+
+4. **Evaluation and Metrics**  
+   - Evaluated the model using **Accuracy** and **F1-score**.  
+   - Visualized the performance using confusion matrices and examples of correctly and incorrectly classified images.  
+
+## Results  
+- **Accuracy**: Achieved an accuracy of 81.07% on the test dataset.  
+- **F1-score**: Computed per-class and overall F1-scores to ensure balanced performance.  
+- **Visualizations**:  
+   - Confusion Matrix: Displays the prediction performance across all emotion classes.  
+   - Sample Outputs: Examples of correctly classified and misclassified images with their true and predicted labels.
+## Model Architecture  
+The CNN architecture consists of:  
+- **Convolutional Layers** for feature extraction.  
+- **Max Pooling** layers for down-sampling.  
+- **Dropout Layers** for regularization.  
+- **Dense Layers** for final classification.  
+
+## Challenges  
+- **Class Imbalance**: The original dataset had imbalanced emotion classes, resolved through oversampling.  
+- **Overfitting**: Mitigated by adding dropout layers and data augmentation techniques.  
+- **Computational Cost**: Training a deep model required significant computational resources; optimized hyperparameters to reduce training time.  
